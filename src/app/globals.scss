@@ -16,7 +16,7 @@ p {
 
 body {
   color: rgb(var(--color));
-  @apply container mx-auto h-screen flex flex-col items-center justify-between px-4 sm:px-8;
+  @apply container mx-auto h-screen min-h-screen flex flex-col items-center justify-between px-4 sm:px-8 pt-8;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-  @apply mb-4;
+  @apply mb-4 mt-16;
   
   p {
     @apply font-extralight;
